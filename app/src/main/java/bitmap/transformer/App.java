@@ -23,7 +23,7 @@ public class App {
 
             switch(args[2]) {
                 case "Invert":
-                    bitmapImageColor.readBitmapFile();
+                        bitmapImageColor.readBitmapFile();
                     bitmapImageColor.convertToInvert();
                     bitmapImageColor.writeBitmapFile();
 
@@ -83,7 +83,7 @@ public class App {
        // System.out.println(Arrays.toString(args));
 //            colorPalletTransforms bitmapImage=new colorPalletTransforms("eviltower.bmp" ,"sss.png");
 //           bitmapImage.readBitmapFile();
-//           bitmapImage.convertToRandomize();
+//           bitmapImage.convertToInvert();
 //           bitmapImage.writeBitmapFile();
 //        rasterDataTransforms bitmapImageRaster=new rasterDataTransforms("eviltower.bmp" ,"sss.png");
 //        bitmapImageRaster.readBitmapFile();
